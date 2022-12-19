@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+}
+
+/*Inicio de Seccion 1*/
+
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(to right, hsla(0, 100%, 1%, 0.404), #0c0000a9), url(../Assets/Img/sanjorge.jpg); 
+    background: linear-gradient(to right, hsla(0, 100%, 1%, 0.404), #080101a9), url(../Assets/Img/sanjorge.jpg);
+    background-size: cover;
+    position: center;
+}
+
+
+
+.logo{
+    width: 20%;
+    padding: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+
+.link{
+    color: #ffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.link:hover{
+    color: #ffff;
+    text-decoration:underline;
+}
+
+
+
+.banner_textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #ffff;
+    margin: 00px 0 100px 0;
+    padding: 10px 30px;
+
+
+}
+    
+
+.banner_textos h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.banner_textos h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 00px 0 100px 0;
+    
+}
+
+.banner_textos a{
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffff;
+
+}
+
+.banner_textos a:hover{
+    text-decoration: underline;
+
+}
+
+
+/*Fin de Seccion 1*/
+
+/*Inicio Seccion 2*/
+
+.contenedor-2 {
+width: 100%;
+height: 80vh;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 0;
+color: #ffff;
+}
+
+.text{
+    width: 70%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2{
+    font-size: 36px;
+
+}
+
+.text p{
+    margin: 20px;
+    font-size: 20px;
+
+
+}
+
+.fotos{
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.fotoimg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+.fotoimg img{
+    border-radius: 10px;
+    
+}
+
+.fotoimg h3{
+    margin: 10px 0;
+    margin: 10px 0;
+    font-size: 20px;
+
+}
+
+.fotoimg p{
+    font-size: 18px;
+    
+}
+/*Fin Seccion 2*/
+
+
+/*https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS*/
+
+
+/*Inicio Seccion 3*/
+
+.contenedor-3 {
+width: 100%;
+height: 80vh;
+background-color:#ffff;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 50px 0;
+color:black
+}
+
+.contenedorblog {
+    width: 35%;
+
+}
+
+.contenedorblog img{
+    width: 90%;
+    height: 90%;
+
+}
+
+.contenedorblogtitulo{
+    width: 35%;
+
+}
+
+.contenedorblogtitulo h2{
+    font-size: 48px;
+}
+
+.contenedorblogtitulo p{
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.contenedorblogtitulo a{
+    font-size: 18px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedorblogtitulo a:hover{
+    color: #ffff;
+    text-decoration:underline;
+
+}
+/*Fin Seccion 3*/
+
+/*Inicio Seccion 4*/
+.contenedor-4 {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #ffff;
+    }
+
+    .formulario{
+        bottom: 10px;
+       
+        width: 30%;
+        padding: 15px 15px;
+
+    }
+    .formulario-titulo{
+        font-size: 25px;
+        margin: 25px auto;
+        text-align: center;
+
+    }
+
+    .forma{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .item1{
+        width: 90%;
+        height: 45px;
+        margin: 7px auto;
+        outline: none;
+
+    }
+
+    .item2{
+        width: 95%;
+        height: 45px;
+        margin: 7px auto;
+        grid-column: 1/3;
+        outline: none;
+
+    }
+
+    .item3{
+        width: 95%;
+        height: 45px;
+        margin: 7px auto;
+        grid-column: 1/3;
+        outline: none;
+
+    }
+
+    .submit{
+        width: 30%;
+        height: 45px;
+        margin: 7px auto;
+        grid-column:1/3;
+        resize: none;
+
+    }
+
+
+
+
+/*Fin Seccion 4*/
+
+/*Inicio Seccion 5*/
+.contenedor-5{
+    background-color:rgba(0, 0, 0, 0.849);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+
+
+.final{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box1{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+  
+}
+
+.box2, .box3, .box4{
+    width: 20%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+
+
+}
+
+.box1 h3,.box2 h3,.box3 h3,.box4 h3{
+    font-size: 28px;
+    margin: 25px 0;
+
+
+}
+
+.box1 p{
+    font-size: 20px;
+  
+}
+
+.box2 a,.box3 a,.box4 a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 5px 0;
+    font-size: 20px;
+
+}
+  
+
+.redes{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 25px 0;
+
+}
+
+.redes img{
+    object-fit: cover;
+    height: 85%;
+    margin-right: 15px;
+
+
+
+}
+
+
+
+.pie{
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+   
+}
+
+
+/*Fin Seccion 5*/
